@@ -1,0 +1,27 @@
+Machine (126GB total)
+  Package L#0
+    NUMANode L#0 (P#0 63GB)
+    L3 L#0 (19MB) + L2 L#0 (1024KB) + L1d L#0 (32KB) + L1i L#0 (32KB) + Core L#0 + PU L#0 (P#0)
+    HostBridge
+      PCI 00:11.5 (SATA)
+        Block(Disk) "sda"
+      PCI 00:17.0 (SATA)
+      PCIBridge
+        PCIBridge
+          PCI 03:00.0 (VGA)
+      PCIBridge
+        PCI 04:00.0 (Ethernet)
+          Net "eno16"
+    HostBridge
+      PCIBridge
+        PCI 18:00.0 (Ethernet)
+          Net "enp24s0f0"
+        PCI 18:00.1 (Ethernet)
+          Net "enp24s0f1"
+    HostBridge
+      PCIBridge
+        PCI 5e:00.0 (InfiniBand)
+          Net "ib0"
+          OpenFabrics "mlx5_0"
+  Package L#1
+    NUMANode L#1 (P#1 63GB)
